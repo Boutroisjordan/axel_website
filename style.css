@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(./font/proximanova-regular.otf);
+}
+@font-face{
+    font-family: "Eastman Trial bold italic";
+    src: url(./font/EastmanTrial-BoldItalic.otf);
+}
+@font-face{
+    font-family: "Eastman Trial extrabold";
+    src: url(./font/EastmanTrial-Extrabold.otf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+}
+
+
+header {
+    height: 114px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-right: 30px;
+}
+
+nav a {
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: grey;
+    transition: 0.5s;
+}
+
+.special_link {
+    color: grey;
+}
+
+.special_link:hover {
+    color: white;
+}
+
+/* main */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 700px;
+
+}
+
+
+.main_img {
+    text-align: center;
+    overflow: hidden;
+}
+
+.main_img img{
+    margin-left: -40%;
+    margin-top: -10%;
+}
+
+.main_text {
+    margin: auto;
+}
+
+.main_text h1 .span_2{
+    font-family: 'Eastman Trial bold italic';
+    font-size: 50px; 
+    padding-left: 200px;
+}
+
+.main_text h1 .span_1  {
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Eastman Trial extrabold';
+}
+
+.btn {
+    float: right;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+    
+.btn_1 {
+     color: white; 
+    background-color: black;
+    border: solid black;
+    padding: 5px 15px;
+    font-size: 25px;
+    font-family: 'Eastman Trial extrabold'; 
+}
+
+
+
+
+.btn_1:hover{
+    color: black;
+    background-color: white
+}
