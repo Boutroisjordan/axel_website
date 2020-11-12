@@ -83,8 +83,9 @@ margin-top: 100px;
 .main_text h1 .span_2{
     font-family: 'Eastman Trial bold italic';
     font-size: 50px; 
-    padding-left:100px;
-    margin-top: 10px;
+    padding-left:150px;
+    padding-bottom: -25px;
+    overflow: visible;
 }
 
 .main_text h1 .span_1  {
@@ -107,6 +108,8 @@ margin-top: 100px;
     padding: 5px 15px;
     font-size: 25px;
     font-family: 'Eastman Trial extrabold'; 
+    margin-top: 10%;
+
 }
 
 
@@ -114,5 +117,5 @@ margin-top: 100px;
 
 .btn_1:hover{
     color: black;
-    background-color: white
+    background-color: rgb(255, 255, 255)
 }
