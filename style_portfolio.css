@@ -67,10 +67,12 @@ body {
 
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding-top: 20px;
 }
 
 .one {
@@ -78,6 +80,10 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-image: url(img/port1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .two {
@@ -85,6 +91,9 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-image: url(img/port2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .three {
@@ -92,6 +101,9 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    background-image: url(img/port3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .four {
@@ -99,4 +111,7 @@ body {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    background-image: url(img/port4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
