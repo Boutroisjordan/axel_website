@@ -1,0 +1,102 @@
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(./font/proximanova-regular.otf);
+}
+@font-face{
+    font-family: "Eastman Trial bold italic";
+    src: url(./font/EastmanTrial-BoldItalic.otf);
+}
+@font-face{
+    font-family: "Eastman Trial extrabold";
+    src: url(./font/EastmanTrial-Extrabold.otf);
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url(./font/MONTSERRAT-MEDIUMITALIC.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+    outline-style: none;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-right: 30px;
+}
+
+nav a {
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: grey;
+    transition: 0.5s;
+}
+
+.special_link {
+    color: grey;
+}
+
+.special_link:hover {
+    color: white;
+}
+
+/* portfolio */
+
+body {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.one {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.two {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.three {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.four {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
