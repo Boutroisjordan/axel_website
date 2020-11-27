@@ -103,7 +103,6 @@ margin-top: 100px;
     float: right;
     padding-top: 45px;
     padding-right: 190px;
-
 }
     
 .btn_1 {
@@ -260,10 +259,14 @@ form label {
     font-size: 90px;
 }
 
+.flex_about {
+    padding-bottom: 20px;
+}
+
 /* premier paragraphe */
 
 .first_p {
-    height: 200px;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -274,6 +277,7 @@ form label {
     width: 40%;
     font-family: "Montserrat";
     padding-left: 50px;
+    font-size: 20px;
 }
 
 .second_p {
@@ -284,8 +288,42 @@ form label {
 }
 
 .second_p p {
-    width: 40%;
+    width: 50%;
+    height: 100px;
     font-family: "Montserrat";
     padding-right: 50px;
     float: right;
+    font-size: 20px;
+}
+
+.third_p {
+    height: 150px;
+    width: 100%;
+
+}
+
+.third_p p {
+    width: 40%;
+    font-family: "Montserrat";
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+.btn_about {
+    float: right;
+    padding-right: 190px;
+    padding-bottom: 150px;
+}
+    
+.btn_about1 {
+     color: white; 
+    background-color: black;
+    border: solid black;
+    font-size: 25px;
+    font-family: 'Eastman Trial extrabold'; 
+    
 }
