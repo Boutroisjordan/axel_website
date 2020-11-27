@@ -19,6 +19,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Proxima Nova';
+    outline-style: none;
 }
 
 
@@ -113,14 +114,136 @@ margin-top: 100px;
 
 }
 
-
-
-
 .btn_1:hover{
     color: black;
     background-color: rgb(255, 255, 255)
 }
 
+/* Contact me */
+
+.h1_contact {
+    width: 100%; 
+    height: 250px;
+    padding: 80px 50px;
+}
+
+.h1_contact h1 {
+    font-family: "Eastman Trial extrabold";
+    font-size: 90px;
+}
+
+/* grid */
+
+.container {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+    grid-template-rows: 1fr;
+    gap: 150px;
+}
+
+/* formulaire */
+
+form {
+    width: 100%;
+    height: 500px;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.form_flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 160px 0;
+}
+
+form label {
+    font-size: 25px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 0;
+}
+
+.name input{
+    border: none;
+    border-bottom: solid gray 2px;
+    background-color: transparent;
+    width: 250px;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 0;
+ }
+
+ .email input{
+    border: none;
+    border-bottom: solid gray 2px;
+    background-color: transparent;
+    width: 250px;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 110px;
+ }
+
+ .msg input{
+    border: none;
+    border-bottom: solid gray 2px;
+    background-color: transparent;
+    padding: 50px 0;
+    text-align: left;
+    width: 740px;
+}
+
+::placeholder {
+    color: gray;
+    margin: 20px;
+    font-family: "Proxima Nova";
+    
+}
+
+/* réseaux */
+
+.reseau {
+    grid-column-start: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 600px;
+}
+
+.reseau ul li{
+    padding: 50px 0;
+}
+
+.reseau ul li a {
+    font-size: 25px;
+    color: gray;
+}
+
+.reseau ul li a i {
+    color: black;
+}
 /* ABOUT */
 
 .h1_about {
@@ -130,5 +253,5 @@ margin-top: 100px;
 }
 
 .h1_about h1 {
-    font-size: 2em;
+    font-size: 4em;
 }
