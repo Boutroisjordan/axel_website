@@ -307,16 +307,23 @@ form label {
     font-family: "Montserrat";
     padding-left: 50px;
     font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 
 
-
+.flex-about2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .btn_about {
     float: right;
     padding-right: 190px;
-    padding-bottom: 150px;
+    padding-bottom: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
     
 .btn_about1 {
@@ -324,6 +331,14 @@ form label {
     background-color: black;
     border: solid black;
     font-size: 25px;
+    padding: 5px 15px;
     font-family: 'Eastman Trial extrabold'; 
     
+}
+
+
+
+.btn_about1:hover{
+   color: black;
+   background-color: rgb(255, 255, 255)
 }
