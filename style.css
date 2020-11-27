@@ -10,7 +10,10 @@
     font-family: "Eastman Trial extrabold";
     src: url(./font/EastmanTrial-Extrabold.otf);
 }
-
+@font-face{
+    font-family: "Montserrat";
+    src: url(./font/MONTSERRAT-MEDIUMITALIC.otf);
+}
 
 * {
     padding: 0;
@@ -118,7 +121,7 @@ margin-top: 100px;
     color: black;
     background-color: rgb(255, 255, 255)
 }
-
+/* CONTACT */
 /* Contact me */
 
 .h1_contact {
@@ -248,10 +251,41 @@ form label {
 
 .h1_about {
     width: 100%; 
-    height: 250px;
+    height: 200px;
     padding: 80px 50px;
 }
 
 .h1_about h1 {
-    font-size: 4em;
+    font-family: "Eastman Trial extrabold";
+    font-size: 90px;
+}
+
+/* premier paragraphe */
+
+.first_p {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first_p p {
+    width: 40%;
+    font-family: "Montserrat";
+    padding-left: 50px;
+}
+
+.second_p {
+    height: 200px;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.second_p p {
+    width: 40%;
+    font-family: "Montserrat";
+    padding-right: 50px;
+    float: right;
 }
