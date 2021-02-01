@@ -27,9 +27,14 @@
 
 
 header {
+    /* box-model */
     height: 100px;
     width: 100%;
+
+    /* visual */
     background-color: black;
+    
+    /* positionning */
     display: flex;
     justify-content: space-between;
     align-items: center;
